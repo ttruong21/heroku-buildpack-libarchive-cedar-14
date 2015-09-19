@@ -5,7 +5,7 @@ VENDOR_DIR="vendor"
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
-curl -L --silent https://github.com/fresvii/heroku-libarchive-buildpack-cedar-14/releases/download/v3.1.2/heroku-libarchive-3.1.2.tar.xz | tar xJ
+curl -L --silent https://github.com/fresvii/heroku-buildpack-libarchive-cedar-14/releases/download/v3.1.2/heroku-libarchive-3.1.2.tar.xz | tar xJ
 
 echo "exporting PATH and LIBRARY_PATH"
 PROFILE_PATH="$BUILD_DIR/.profile.d/libarchive.sh"
